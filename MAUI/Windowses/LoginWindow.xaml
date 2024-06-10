@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.Windowses.LoginWindow"
+             xmlns:viewModels="clr-namespace:MAUI.ViewModels"
+             Title="LoginWindow"
+             WidthRequest="300"
+             HeightRequest="300">
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" 
+                   WidthRequest="300" 
+                   Text="Username:" 
+                   Margin="0,50,0,0" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Start"/>
+        <Entry x:Name="username" 
+                   Text="{Binding Name}"
+                   Grid.Row="1" 
+                   WidthRequest="300" 
+                   Margin="5" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Start"/>
+        <Label Grid.Row="2" 
+                   WidthRequest="300" 
+                   Text="Password:" 
+                   Margin="5" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Start"/>
+        <Entry x:Name="password"
+                   Text="{Binding Password}"
+                   Grid.Row="3" 
+                   WidthRequest="300" 
+                   Margin="5" 
+                   IsPassword="True" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Start"/>
+        
+        <Button Grid.Row="4" 
+                Text="Login" 
+                Width="300" 
+                Margin="0,20,0,0"
+                Command="{Binding LoginCommand}" />
+    </Grid>
+</ContentPage>  

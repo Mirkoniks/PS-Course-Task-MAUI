@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="MAUI.Windowses.RemoveUser"
+             xmlns:viewModels="clr-namespace:MAUI.ViewModels"
+             
+             >
+    <ContentPage.BindingContext>
+        <viewModels:RemoveUserViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Label Text="Enter user name to remove:" HorizontalOptions="Center" VerticalOptions="Center" Margin="10" Grid.Row="1"/>
+
+        <Entry x:Name="userNameEntry" Grid.Row="2" Margin="74,10,74,10" Text="{Binding Name, Mode=TwoWay}"/>
+
+        <Button Text="Remove User" Grid.Row="3" Margin="74,10,74,10" Command="{Binding RemoveUserCommand}"/>
+    </Grid>
+</ContentPage>

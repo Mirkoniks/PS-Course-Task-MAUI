@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MAUI.Windowses"
+             xmlns:viewModels="clr-namespace:MAUI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MAUI.Windowses.StudentsList">
+
+    <ContentPage.BindingContext>
+        <viewModels:CombinedViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions >
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+             </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Picker Grid.Column="0" x:Name="rolePicker" Margin="25" WidthRequest="250" SelectedIndex="{Binding AddUserVM.Role, Mode=TwoWay}">
+                    <Picker.Items>
+                        <x:String>Admin</x:String>
+                        <x:String>Professor</x:String>
+                        <x:String>Inspector</x:String>
+                        <x:String>Student</x:String>
+                    </Picker.Items>
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged" Command="{Binding AddUserVM.RoleChangedCommand}" />
+                    </Picker.Behaviors>
+                </Picker>
+
+                <Button Grid.Column="1" Margin="25" WidthRequest="150" Text="Load Users" Command="{Binding AddUserVM.AllUsersCommand}" />
+                
+                <Button IsEnabled="{Binding AddUserVM.IsMoreButtonVisible}" Grid.Column="2" Margin="25" WidthRequest="150" Text="More Info" Command="{Binding AdditionalDataVM.LoadAditionalDataCommand}" />
+
+                <Button Grid.Column="3" Margin="25" WidthRequest="150" Text="To Logs" Command="{Binding AddUserVM.ToLogsCommand}" />
+
+                <Button Grid.Column="4" Margin="25" WidthRequest="250" Text="To Login" Command="{Binding AddUserVM.ToLoginCommand}" />
+            </Grid>
+
+
+         <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="300" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Text="Name" FontAttributes="Bold" />
+            <Label Grid.Column="1" Text="Email" FontAttributes="Bold" />
+            <Label Grid.Column="2" Text="BirthDay" FontAttributes="Bold" />
+            <Label Grid.Column="3" Text="Student Number" FontAttributes="Bold" />
+            <Label IsVisible="{Binding AdditionalDataVM.AreVisible}" Grid.Column="4" Text="Role" FontAttributes="Bold" />
+            <Label IsVisible="{Binding AdditionalDataVM.AreVisible}" Grid.Column="5" Text="Password" FontAttributes="Bold" />
+            <Label IsVisible="{Binding AdditionalDataVM.AreVisible}" Grid.Column="6" Text="Expires" FontAttributes="Bold" />
+         </Grid>
+        
+            <ListView Grid.Row="2" Grid.Column="0" ItemsSource="{Binding AddUserVM.Users}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100" />
+                                    <ColumnDefinition Width="200" />
+                                    <ColumnDefinition Width="200" />
+                                    <ColumnDefinition Width="200" />
+                                </Grid.ColumnDefinitions>
+
+
+                                <Label Grid.Column="0"
+                                 Text="{Binding Name}"
+                                 FontAttributes="Bold" />
+
+                                <Label Grid.Column="1"
+                                 Text="{Binding Email}"
+                                 FontAttributes="Bold" />
+
+                                <Label Grid.Column="2"
+                                 Text="{Binding BirthDay}"
+                                 FontAttributes="Bold" />
+
+                                <Label Grid.Column="3"
+                                 Text="{Binding StudentNumber}"
+                                 FontAttributes="Bold" />
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView  Grid.Row="2" Grid.Column="1" ItemsSource="{Binding AdditionalDataVM.Users}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="150" />
+                                    <ColumnDefinition Width="300" />
+                                    <ColumnDefinition Width="200" />
+                                </Grid.ColumnDefinitions>
+
+
+                                <Label Grid.Column="0"
+                         Text="{Binding RoleEnum}"
+                         FontAttributes="Bold" />
+
+
+                                <Label Grid.Column="1"
+                         Text="{Binding Password}"
+                         FontAttributes="Bold" />
+
+
+                                <Label Grid.Column="2"
+                         Text="{Binding Expires}"
+                         FontAttributes="Bold" />
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </Grid>
+
+  
+
+    </VerticalStackLayout>
+</ContentPage>

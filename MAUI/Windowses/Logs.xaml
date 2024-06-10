@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.Windowses.Logs"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:MAUI.ViewModels"
+             Title="Logs">
+    
+    <ContentPage.BindingContext>
+        <viewModels:LogViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding UpdateLogsCommand}" />
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout>
+
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Text="Date" FontAttributes="Bold" />
+        </Grid>
+
+        <ListView ItemsSource="{Binding Logs}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0"
+                               Text="{Binding Date}"
+                               FontAttributes="Bold">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:LogViewModel}}, Path=ShowLogDetailsCommand}"
+                                        CommandParameter="{Binding Message}" />
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+
+            <Button Grid.Column="0" Margin="25" WidthRequest="350" Text="Load" Command="{Binding UpdateLogsCommand}" />
+
+            <Button Grid.Column="1" Margin="25" WidthRequest="350" Text="To Students List" Command="{Binding ToStudentsListCommand}" />
+
+            <Button Grid.Column="2" Margin="25" WidthRequest="350" Text="To Login"  Command="{Binding ToLoginCommand}"/>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

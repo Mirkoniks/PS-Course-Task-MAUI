@@ -1,0 +1,216 @@
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such column: u.key'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such column: u.key'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such column: u.key'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such column: u.key'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such column: u.key'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ SQLite Error 1: 'no such table: Users'.
+~ LOGGER ~
+
+~ LOGGER ~
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:19
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:13:23
+[Error] [Hello]
+ The seed entity for entity type 'DatabaseUser' cannot be added because another seed entity with the same key value for {'Id'} has already been added. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:14:54
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:15:46
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:16:05
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:16:21
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:18:29
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:18:39
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:18:48
+[Error] [Hello]
+ An error occurred while saving the entity changes. See the inner exception for details.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:08
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:21
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:22:41
+[Error] [Hello]
+ Object reference not set to an instance of an object.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:25:02
+[Error] [Hello]
+ The LINQ expression 'DbSet<DatabaseUser>()
+    .Where(d => d.Name == __namePromt_0 && d.Password == d.Encrypt(__passPromt_1))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:46:44
+[Error] [Hello]
+ The input string 's' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:49:26
+[Error] [Hello]
+ The input string 's' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:01
+[Error] [Hello]
+ The input string 'k' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:32
+[Error] [Hello]
+ The input string '' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:37
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:39
+[Error] [Hello]
+ The input string '' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:39
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:40
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:19
+[Error] [Hello]
+ The input string 'd' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:51
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:54
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:58
+[Error] [Hello]
+ The input string 'f' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:58:18
+[Error] [Hello]
+ The input string 's' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:58:19
+[Error] [Hello]
+ The input string 's' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:58:19
+[Error] [Hello]
+ The input string 's' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 08:43:36
+[Error] [Hello]
+ The input string 'exit' was not in a correct format.
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 09:23:50
+[Error] [File]
+ The input string '' was not in a correct format.
+~ LOGGER ~
+

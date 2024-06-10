@@ -1,0 +1,64 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.Windowses.AddUser"
+             xmlns:viewModels="clr-namespace:MAUI.ViewModels"
+             >
+    
+    <ContentPage.BindingContext>
+        <viewModels:AddUserViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="1" Text="Name:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry Grid.Row="2" x:Name="nameEntry" Margin="10" WidthRequest="350" Text="{Binding Name, Mode=TwoWay}"/>
+
+            <Label Grid.Row="3" Text="Password:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry Grid.Row="4" x:Name="passwordEntry" Margin="10" IsPassword="True" WidthRequest="350" Text="{Binding Password, Mode=TwoWay}"/>
+
+            <Label Grid.Row="5" Text="Role:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Picker Grid.Row="6" x:Name="rolePicker" Margin="10" WidthRequest="350" SelectedIndex="{Binding Role, Mode=TwoWay}">
+                <Picker.Items>
+                    <x:String>Admin</x:String>
+                    <x:String>Professor</x:String>
+                    <x:String>Inspector</x:String>
+                    <x:String>Student</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Grid.Row="7" Text="Student Number:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry Grid.Row="8" x:Name="studentNumberEntry" Margin="10" WidthRequest="350" Text="{Binding StudentNumber, Mode=TwoWay}" />
+
+            <Label Grid.Row="9" Text="Email:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Entry Grid.Row="10" x:Name="emailEntry" Margin="10" Keyboard="Email" WidthRequest="350" Text="{Binding Email, Mode=TwoWay}"/>
+
+            <Label Grid.Row="11" Text="Birth Date:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <DatePicker Grid.Row="12" x:Name="birthDatePicker" Margin="10" WidthRequest="350" Date="{Binding BirthDay, Mode=TwoWay}"/>
+
+            <Label Grid.Row="13" Text="Expires:" Margin="10" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <DatePicker Grid.Row="14" x:Name="expiresDatePicker" Margin="10" WidthRequest="350" Date="{Binding Expires, Mode=TwoWay}"/>
+
+
+            <Button Grid.Row="15" Text="Create User" Margin="10" WidthRequest="350" Command="{Binding AddUserCommand}"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

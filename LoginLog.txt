@@ -1,0 +1,622 @@
+~ LOGGER ~
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+2024-03-07 18:51:05
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 18:51:35
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:10:20
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:10:20
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:12
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:12
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:19
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:19
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:33
+[Information] [Hello]
+ d was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:12:33
+[Information] [Hello]
+ d was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:16:21
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:16:21
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:19:53
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:19:53
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:08
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:08
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:21
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:20:21
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:22:41
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:22:41
+[Information] [Hello]
+ pesho was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:23:56
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:23:56
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:26:28
+[Information] [Hello]
+ User: pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:26:28
+[Error] [Hello]
+ User: pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:27:58
+[Information] [Hello]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:27:58
+[Information] [Hello]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:29:36
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:29:36
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:44:30
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:44:30
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:45:32
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:45:32
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:45:49
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:45:49
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:46:48
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:46:48
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:47:16
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:47:16
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:47:29
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:47:29
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:48:06
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:48:06
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:57:21
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:57:21
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:58:52
+[Information] [Hello]
+  was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 19:58:52
+[Information] [Hello]
+  was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:03:12
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:03:12
+[Error] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:04:27
+[Information] [Hello]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:06:06
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:06:21
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:06:52
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:07:28
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:33:20
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:33:49
+[Information] [Hello]
+ d was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:45:42
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:46:40
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:46:55
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:49:26
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:50:15
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:53:51
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:54:50
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:55:43
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:21
+[Information] [Hello]
+ s was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:56:27
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:18
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:57:50
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+07-03-2024 20:58:18
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 08:41:32
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 08:42:34
+[Information] [Hello]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 08:42:41
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 08:43:33
+[Information] [Hello]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+12-03-2024 09:23:29
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 00:03:03
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 00:03:48
+[Information] [Login]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 00:04:57
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 00:05:30
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 00:07:23
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:15:31
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:15:56
+[Information] [Login]
+ User: Pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:16:15
+[Information] [Login]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:16:30
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:32:26
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 10:46:47
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:01:32
+[Information] [Login]
+ John Doe was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:01:39
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:02:23
+[Information] [Login]
+ User: Pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:17:07
+[Information] [Login]
+ username was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:17:16
+[Information] [Login]
+ username was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:17:19
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:17:35
+[Information] [Login]
+ User: Pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+22-03-2024 11:18:20
+[Information] [Login]
+ User: Pesho has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+18-05-2024 16:14:35
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+05-06-2024 20:24:06
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+05-06-2024 21:56:18
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+08-06-2024 17:55:09
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:18:05
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:18:56
+[Information] [Login]
+ User: Hero has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:19:18
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:36:13
+[Information] [Login]
+ username was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:36:22
+[Information] [Login]
+ username was not found!
+~ LOGGER ~
+
+~ LOGGER ~
+09-06-2024 08:41:20
+[Information] [Login]
+ User: John Doe has succssesfully loged in!
+~ LOGGER ~
+
